@@ -92,7 +92,7 @@
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-							<a href="#model" class="model-link"><input type="submit" value="подробнее" class="df-input_view"></a>
+							<a href="#model" class="model-link2"><input type="submit" value="подробнее" class="df-input_view"></a>
 						</div>
 					</div>
 					<div class="df-model df-model_view">
@@ -103,7 +103,7 @@
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-							<a href="#model" class="model-link"><input type="submit" value="подробнее" class="df-input_view"></a>
+							<a href="#model" class="model-link3"><input type="submit" value="подробнее" class="df-input_view"></a>
 						</div>
 					</div>
 				</div>	
@@ -124,7 +124,7 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
 							</div>
 							<div class="df-cartproduct__choise df-cartproduct__choise_view">
-								<div id="df-owl">
+								<div id="df-owl1">
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
@@ -158,9 +158,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="df-cartproduct__right df-cartproduct__right_view">
+						<div class="df-cartproduct__right df-cartproduct__right_view dfopen1">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color4.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color4.jpg" alt=""></a></div>
@@ -183,10 +183,147 @@
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
 				</div>
+				<div class="tovar-item item2">
+					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
+					<div class="df-cartproduct df-cartproduct_view">
+						<div class="df-cartproduct__left df-cartproduct__left_view">
+							<div class="df-cartproduct__img df-cartproduct__img_view">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
+							</div>
+							<div class="df-cartproduct__choise df-cartproduct__choise_view">
+								<div id="df-owl2">
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">	
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">	
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="df-cartproduct__right df-cartproduct__right_view dfopen2">
+							<span>Выберите расцветку</span>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+						</div>
+					</div>
+
+					<div class="dfinner-text dfinner-text_view">
+						<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-93, ГОСТ 19917-93 и конструкторской документации.</h4>	
+						<div class="dfinner-text__p dfinner-text__p_view">
+							<p>Спальное место: 1950х1540 мм</p>
+							<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+						</div>
+						<p>Цвет массива и отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочные ламели на металлическом каркасе не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+					</div>
+
+					<div class="df-price-box">					
+						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+						<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
+					</div>
+				</div>
+				<div class="tovar-item item3">
+					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
+					<div class="df-cartproduct df-cartproduct_view">
+						<div class="df-cartproduct__left df-cartproduct__left_view">
+							<div class="df-cartproduct__img df-cartproduct__img_view">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
+							</div>
+							<div class="df-cartproduct__choise df-cartproduct__choise_view">
+								<div id="df-owl3">
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">	
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+										</div>
+									</div>
+									<div class="item">	
+										<div class="df-cartproduct__prod df-cartproduct__prod_view">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="df-cartproduct__right df-cartproduct__right_view dfopen3">
+							<span>Выберите расцветку</span>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+						</div>
+					</div>
+
+					<div class="dfinner-text dfinner-text_view">
+						<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-93, ГОСТ 19917-93 и конструкторской документации.</h4>	
+						<div class="dfinner-text__p dfinner-text__p_view">
+							<p>Спальное место: 1950х1540 мм</p>
+							<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+						</div>
+						<p>Цвет массива и отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочные ламели на металлическом каркасе не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+					</div>
+
+					<div class="df-price-box">					
+						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+						<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+
+
 <a name="advantages"></a>
 <section class="section section_padding section_padding-db-advant">
 	<div class="container">
