@@ -87,7 +87,7 @@ $(document).ready(function(){
             $('.tovar-item').hide();
         } 
 
-        // $('.df-section_padding').slideDown();
+         $('.df-section_padding').slideDown();
         $('.item1').slideDown();
 
         var text = $(this).prevAll('.df-models__txt1_view').text();
