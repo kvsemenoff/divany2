@@ -496,6 +496,7 @@
 				<input type="text" name="uname" placeholder="Имя*" required>
 				<input type="text" class="phone" name="phone" placeholder="Телефон*">
 				<input type="email" name="email" placeholder="E-mail...">
+				<input type="text" name="adress" placeholder="Адрес доставки">
 			</div>
 			<div class="df-all__R">
 				<div class="df-table">
