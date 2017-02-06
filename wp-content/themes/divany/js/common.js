@@ -42,7 +42,7 @@ $(document).ready(function(){
             var form_data = $(this).serialize(); 
             $.ajax({
                 type: "POST", 
-                url: "/sendmessage.php", 
+                url: "sendmessage.php", 
                 data: form_data,
                 success: function() {
                     cleanTnanks(this);

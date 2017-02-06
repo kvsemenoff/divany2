@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -23,7 +24,43 @@
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.maskedinput.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+<!-- Yandex.Metrika counter -->
 
+<!-- Start: injected by Adguard -->
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant?ts=63621992764552" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Popup Blocker?ts=63621992764552" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Web of Trust?ts=63621992764552" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63621992761344&amp;domain=weu1-api.asm.skype.com&amp;css=1&amp;js=1&amp;generic=1&amp;stealth=1" type="text/javascript"></script>
+
+<!-- End: injected by Adguard -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter42560139 = new Ya.Metrika({
+                    id:42560139,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42560139" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 <div class="burg hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></div>
 <section class="section section_padding section_padding_db header-top">
