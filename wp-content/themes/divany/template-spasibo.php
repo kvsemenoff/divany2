@@ -40,9 +40,9 @@ Template name: Страница спасибо
 					<div class="col-md-12">
 						<div class="db-container-div">
 							<ul class="db-container__menu db-container__menu_li-view">
-								<li><a href="#">Модели диванов</a></li>
-								<li><a href="#">Приемущества</a></li>
-								<li><a href="#">Условия доставки</a></li>
+								<li><a href="/#models">Модели диванов</a></li>
+								<li><a href="/#advantages">Приемущества</a></li>
+								<li><a href="/#conditions">Условия доставки</a></li>
 							</ul>
 							<div class="db-container__tel db-container__tel_view">
 								<span>8 (495) 357-13-00</span> 

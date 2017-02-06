@@ -73,7 +73,7 @@
 			<div class="col-md-12 df-center">
 				<h2 class="df-caption">Модели диванов</h2>
 				<div class="df-models df-models_view">
-					<div class="df-model df-model_view">
+					<div class="df-model df-model_view model-link">
 						<div class="df-models__img df-models__img_view">
 							<a href="#model" class="model-link"><img src="/images/Arizona_Starlight.jpeg" alt=""></a>
 						</div>
@@ -81,10 +81,10 @@
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-							<a href="#model" class="model-link"><input type="submit" value="подробнее" class="df-input_view"></a>
+							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
-					<div class="df-model df-model_view">
+					<div class="df-model df-model_view model-link2">
 						<div class="df-models__img df-models__img_view">
 							<a href="#model" class="model-link"><img src="/images/Nevada_WalesWhit_Tal3.jpg" alt=""></a>
 						</div>
@@ -92,10 +92,10 @@
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-							<a href="#model" class="model-link2"><input type="submit" value="подробнее" class="df-input_view"></a>
+							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
-					<div class="df-model df-model_view">
+					<div class="df-model df-model_view model-link3">
 						<div class="df-models__img df-models__img_view">
 							<a href="#model" class="model-link"><img src="/images/chicago_2.jpg" alt=""></a>
 						</div>
@@ -103,7 +103,7 @@
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
-							<a href="#model" class="model-link3"><input type="submit" value="подробнее" class="df-input_view"></a>
+							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
 				</div>	

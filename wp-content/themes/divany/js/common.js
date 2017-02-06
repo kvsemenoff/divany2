@@ -100,7 +100,7 @@ $(document).ready(function(){
    });     
 
 
-  // $('.df-section_padding').hide();
+  
 
   $('.item1, .item2, .item3').hide();
 
@@ -113,19 +113,17 @@ $(document).ready(function(){
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
-        } 
-
-        // $('.df-section_padding').slideDown();
+        }      
 
 
-         $('.df-section_padding').slideDown();
+        $('.df-section_padding').slideDown();
 
         $('.item1').slideDown();
 
-        var text = $(this).prevAll('.df-models__txt1_view').text();
-        var priceold = $(this).prevAll('.df-models__txt2_view').text();
-        var pricetxt = $(this).prevAll('.df-models__txt3_view').text();
-        var attr = $(this).parent('.df-models__characteristics').prev('.df-models__img').find('img').attr('src');      
+        var text = $(this).find('.df-models__txt1_view').text();
+        var priceold = $(this).find('.df-models__txt2_view').text();
+        var pricetxt = $(this).find('.df-models__txt3_view').text();
+        var attr = $(this).find('.df-models__img').find('img').attr('src');      
         
         $('.df-input_view').each(function(){
             $('.df-innerh2').text(text);
@@ -175,23 +173,20 @@ $(document).ready(function(){
       });
 
     });
-  // $('dfopen2 .df-cartproduct__col_view a:first').click();
+  
 
-  $('.model-link2').on('click', function(e){
-        
-        e.preventDefault();     
+  $('.model-link2').on('click', function(e){        
+        e.preventDefault();   
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
-        } 
-
-        // $('.df-section_padding').slideDown();
+        }        
         $('.item2').slideDown();
 
-        var text2 = $(this).prevAll('.df-models__txt1_view').text();
-        var priceold2 = $(this).prevAll('.df-models__txt2_view').text();
-        var pricetxt2 = $(this).prevAll('.df-models__txt3_view').text();
-        var attr2 = $(this).parent('.df-models__characteristics').prev('.df-models__img').find('img').attr('src');      
+        var text2 = $(this).find('.df-models__txt1_view').text();
+        var priceold2 = $(this).find('.df-models__txt2_view').text();
+        var pricetxt2 = $(this).find('.df-models__txt3_view').text();
+        var attr2 = $(this).find('.df-models__img').find('img').attr('src');    
         
         $('.df-input_view').each(function(){
             $('.df-innerh2').text(text2);
@@ -238,12 +233,10 @@ $(document).ready(function(){
       });
 
     });
-  // $('.dfopen3 .df-cartproduct__col_view a:first').click();
+ 
 
   $('.model-link3').on('click', function(e){
-       
-
-        e.preventDefault();        
+        e.preventDefault();      
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
@@ -251,12 +244,10 @@ $(document).ready(function(){
 
         $('.item3').slideDown();
 
-        // $('.df-section_padding').slideDown();
-
-        var text3 = $(this).prevAll('.df-models__txt1_view').text();
-        var priceold3 = $(this).prevAll('.df-models__txt2_view').text();
-        var pricetxt3 = $(this).prevAll('.df-models__txt3_view').text();
-        var attr3 = $(this).parent('.df-models__characteristics').prev('.df-models__img').find('img').attr('src');      
+        var text3 = $(this).find('.df-models__txt1_view').text();
+        var priceold3 = $(this).find('.df-models__txt2_view').text();
+        var pricetxt3 = $(this).find('.df-models__txt3_view').text();
+        var attr3 = $(this).find('.df-models__img').find('img').attr('src'); 
         
         $('.df-input_view').each(function(){
             $('.df-innerh2').text(text3);
