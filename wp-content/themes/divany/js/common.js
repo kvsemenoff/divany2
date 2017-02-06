@@ -58,21 +58,7 @@ $(document).ready(function(){
         location = "thanks";
         // $('a[href=#thanks]').trigger('click');
     };
-
-
-   //  $('.dfopen1 a, .dfopen2 a, .dfopen3 a').click(function(evt) {        
-   //     evt.preventDefault();        
-   //     var imgPath = $(this).attr('href');         
-   //     var oldImage = $('.df-cartproduct__img_view img');              
-   //     var newImage = $('<img src="' + imgPath +'">');         
-   //     newImage.hide();           
-   //     $('.df-cartproduct__img_view').prepend(newImage);          
-   //     newImage.show(200);                    
-   //     oldImage.hide(200,function(){
-   //         $(this).remove();
-   //     });
-   //     $(this).addClass("   ");       
-   // });     
+    
   $('.dfopen1 a').click(function(evt) {        
        evt.preventDefault();        
        var imgPath = $(this).attr('href');         
@@ -128,7 +114,12 @@ $(document).ready(function(){
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
         } 
+
         // $('.df-section_padding').slideDown();
+
+
+         $('.df-section_padding').slideDown();
+
         $('.item1').slideDown();
 
         var text = $(this).prevAll('.df-models__txt1_view').text();
