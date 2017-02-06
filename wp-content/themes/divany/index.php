@@ -482,7 +482,7 @@
 <a href="#" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
 <div class="df-add-tovar window" id="log-in7">
-	<div class="dd-close df-close"><img src="img/df-close2.png" alt=""></div>
+	<div class="dd-close df-close"><img src="<?php echo get_template_directory_uri(); ?>/img/df-close2.png" alt=""></div>
 	<form class="form1" action="#" method="post">
 		<h2 class="df-h2cap">Заказать</h2>
 		<img src="<?php echo get_template_directory_uri(); ?>/img/db-garant.png" alt="img" class="img-responsive db-garant-img">
