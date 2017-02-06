@@ -75,7 +75,7 @@
 				<div class="df-models df-models_view">
 					<div class="df-model df-model_view">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="<?php echo get_template_directory_uri(); ?>/img/df-model1.png" alt=""></a>
+							<a href="#model" class="model-link"><img src="/images/Arizona_Starlight.jpeg" alt=""></a>
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
@@ -86,7 +86,7 @@
 					</div>
 					<div class="df-model df-model_view">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="<?php echo get_template_directory_uri(); ?>/img/df-model2.png" alt=""></a>
+							<a href="#model" class="model-link"><img src="/images/Nevada_WalesWhit_Tal3.jpg" alt=""></a>
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА</span>
@@ -97,7 +97,7 @@
 					</div>
 					<div class="df-model df-model_view">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="<?php echo get_template_directory_uri(); ?>/img/df-model3.png" alt=""></a>
+							<a href="#model" class="model-link"><img src="/images/chicago_2.jpg" alt=""></a>
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
@@ -160,11 +160,11 @@
 						</div>
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen1">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color4.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color4.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopa1_.jpeg"><img src="/images/Arizona_BlueTopa1_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopaz2_.jpeg"><img src="/images/Arizona_BlueTopaz2_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_Magnolia_Beige_.jpeg"><img src="/images/Arizona_Magnolia_Beige_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/42.jpg"><img src="/images/42.jpg" alt=""></a></div>
 						</div>
 					</div>
 
@@ -227,11 +227,11 @@
 						</div>
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen2">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopa1_.jpeg"><img src="/images/Arizona_BlueTopa1_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopaz2_.jpeg"><img src="/images/Arizona_BlueTopaz2_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_Magnolia_Beige_.jpeg"><img src="/images/Arizona_Magnolia_Beige_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/42.jpg"><img src="/images/42.jpg" alt=""></a></div>
 						</div>
 					</div>
 
@@ -294,11 +294,11 @@
 						</div>
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen3">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color5.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color3.jpg" alt=""></a></div>
-							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg"><img src="<?php echo get_template_directory_uri(); ?>/img/df-color2.jpg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopa1_.jpeg"><img src="/images/Arizona_BlueTopa1_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopaz2_.jpeg"><img src="/images/Arizona_BlueTopaz2_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_Magnolia_Beige_.jpeg"><img src="/images/Arizona_Magnolia_Beige_.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/42.jpg"><img src="/images/42.jpg" alt=""></a></div>
 						</div>
 					</div>
 
