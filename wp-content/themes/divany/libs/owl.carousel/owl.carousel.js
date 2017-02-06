@@ -1468,23 +1468,23 @@
 	Owl.prototype.watchVisibility = function() {
 
 		// test on zepto
-		if (!isElVisible(this.$element.get(0))) {
-			this.$element.addClass('owl-hidden');
-			window.clearInterval(this.e._checkVisibile);
-			this.e._checkVisibile = window.setInterval($.proxy(checkVisible, this), 500);
-		}
+		// if (!isElVisible(this.$element.get(0))) {
+		// 	this.$element.addClass('owl-hidden');
+		// 	window.clearInterval(this.e._checkVisibile);
+		// 	this.e._checkVisibile = window.setInterval($.proxy(checkVisible, this), 500);
+		// }
 
-		function isElVisible(el) {
-			return el.offsetWidth > 0 && el.offsetHeight > 0;
-		}
+		// function isElVisible(el) {
+		// 	return el.offsetWidth > 0 && el.offsetHeight > 0;
+		// }
 
-		function checkVisible() {
-			if (isElVisible(this.$element.get(0))) {
-				this.$element.removeClass('owl-hidden');
-				this.refresh();
-				window.clearInterval(this.e._checkVisibile);
-			}
-		}
+		// function checkVisible() {
+		// 	if (isElVisible(this.$element.get(0))) {
+		// 		this.$element.removeClass('owl-hidden');
+		// 		this.refresh();
+		// 		window.clearInterval(this.e._checkVisibile);
+		// 	}
+		// }
 	};
 
 	/**
