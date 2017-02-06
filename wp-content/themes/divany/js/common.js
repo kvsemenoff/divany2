@@ -60,33 +60,74 @@ $(document).ready(function(){
     };
 
 
-    $('.dfopen1 a, .dfopen2 a, .dfopen3 a').click(function(evt) {        
+   //  $('.dfopen1 a, .dfopen2 a, .dfopen3 a').click(function(evt) {        
+   //     evt.preventDefault();        
+   //     var imgPath = $(this).attr('href');         
+   //     var oldImage = $('.df-cartproduct__img_view img');              
+   //     var newImage = $('<img src="' + imgPath +'">');         
+   //     newImage.hide();           
+   //     $('.df-cartproduct__img_view').prepend(newImage);          
+   //     newImage.show(200);                    
+   //     oldImage.hide(200,function(){
+   //         $(this).remove();
+   //     });
+   //     $(this).addClass("   ");       
+   // });     
+  $('.dfopen1 a').click(function(evt) {        
        evt.preventDefault();        
        var imgPath = $(this).attr('href');         
-       var oldImage = $('.df-cartproduct__img_view img');              
+       var oldImage = $('.dfimge1 img');              
        var newImage = $('<img src="' + imgPath +'">');         
        newImage.hide();           
-       $('.df-cartproduct__img_view').prepend(newImage);          
+       $('.dfimge1').prepend(newImage);          
        newImage.show(200);                    
        oldImage.hide(200,function(){
            $(this).remove();
        });
-       $(this).addClass("df-active");       
+       $(this).addClass("   ");       
    });     
- 
+   $('.dfopen2 a').click(function(evt) {        
+       evt.preventDefault();        
+       var imgPath = $(this).attr('href');         
+       var oldImage = $('.dfimge2 img');              
+       var newImage = $('<img src="' + imgPath +'">');         
+       newImage.hide();           
+       $('.dfimge2').prepend(newImage);          
+       newImage.show(200);                    
+       oldImage.hide(200,function(){
+           $(this).remove();
+       });
+       $(this).addClass("   ");       
+   });     
+    $('.dfopen3 a').click(function(evt) {        
+       evt.preventDefault();        
+       var imgPath = $(this).attr('href');         
+       var oldImage = $('.dfimge3 img');              
+       var newImage = $('<img src="' + imgPath +'">');         
+       newImage.hide();           
+       $('.dfimge3').prepend(newImage);          
+       newImage.show(200);                    
+       oldImage.hide(200,function(){
+           $(this).remove();
+       });
+       $(this).addClass("   ");       
+   });     
 
 
   // $('.df-section_padding').hide();
+
   $('.item1, .item2, .item3').hide();
 
-  $('.dfopen1 a:first').click();
 
-  $('.model-link').on('click', function(){
+  // $('.dfopen1 .df-cartproduct__col_view a:first').click();
+
+  $('.model-link').on('click', function(e){
+        
+         e.preventDefault();         
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
         } 
-
         // $('.df-section_padding').slideDown();
         $('.item1').slideDown();
 
@@ -108,7 +149,8 @@ $(document).ready(function(){
 
             $('.totalprice').val(pricetxt);
             $('.tovar').val(text);
-            $('.dfopen1 .df-cartproduct__col_view a:first').click();
+          
+             $('.dfopen1 a:first').click();
         });   
 
         var $owlitem1 = $('#df-owl1');
@@ -142,12 +184,15 @@ $(document).ready(function(){
       });
 
     });
-  $('.dfopen2 a:first').click();
+  // $('dfopen2 .df-cartproduct__col_view a:first').click();
 
-  $('.model-link2').on('click', function(){
-    if ($('.tovar-item').is(':visible')) {
-        $('.tovar-item').hide();
-    } 
+  $('.model-link2').on('click', function(e){
+        
+        e.preventDefault();     
+
+        if ($('.tovar-item').is(':visible')) {
+            $('.tovar-item').hide();
+        } 
 
         // $('.df-section_padding').slideDown();
         $('.item2').slideDown();
@@ -170,7 +215,9 @@ $(document).ready(function(){
 
             $('.totalprice').val(pricetxt2);
             $('.tovar').val(text2);
-            $('.dfopen2 df-cartproduct__col_view a:first').click();
+
+            $('.dfopen2 a:first').click();
+            
         });   
 
         var $owlitem2 = $('#df-owl2');
@@ -200,13 +247,19 @@ $(document).ready(function(){
       });
 
     });
-  $('.dfopen3 .df-cartproduct__col_view a:first').click();
+  // $('.dfopen3 .df-cartproduct__col_view a:first').click();
 
-  $('.model-link3').on('click', function(){
-    if ($('.tovar-item').is(':visible')) {
-        $('.tovar-item').hide();
-    }  
-    $('.item3').slideDown();
+  $('.model-link3').on('click', function(e){
+       
+
+        e.preventDefault();        
+
+        if ($('.tovar-item').is(':visible')) {
+            $('.tovar-item').hide();
+        }  
+
+        $('.item3').slideDown();
+
         // $('.df-section_padding').slideDown();
 
         var text3 = $(this).prevAll('.df-models__txt1_view').text();
@@ -228,7 +281,7 @@ $(document).ready(function(){
             $('.totalprice').val(pricetxt3);
             $('.tovar').val(text3);
 
-            $('dfopen3 .df-cartproduct__col_view a:first').click();
+             $('.dfopen3 a:first').click();
         });   
 
 

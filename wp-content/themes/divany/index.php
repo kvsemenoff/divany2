@@ -120,7 +120,7 @@
 					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
 					<div class="df-cartproduct df-cartproduct_view">
 						<div class="df-cartproduct__left df-cartproduct__left_view">
-							<div class="df-cartproduct__img df-cartproduct__img_view">
+							<div class="df-cartproduct__img df-cartproduct__img_view dfimge1">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
 							</div>
 							<div class="df-cartproduct__choise df-cartproduct__choise_view">
@@ -187,7 +187,7 @@
 					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
 					<div class="df-cartproduct df-cartproduct_view">
 						<div class="df-cartproduct__left df-cartproduct__left_view">
-							<div class="df-cartproduct__img df-cartproduct__img_view">
+							<div class="df-cartproduct__img df-cartproduct__img_view dfimge2">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
 							</div>
 							<div class="df-cartproduct__choise df-cartproduct__choise_view">
@@ -254,7 +254,7 @@
 					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
 					<div class="df-cartproduct df-cartproduct_view">
 						<div class="df-cartproduct__left df-cartproduct__left_view">
-							<div class="df-cartproduct__img df-cartproduct__img_view">
+							<div class="df-cartproduct__img df-cartproduct__img_view dfimge3">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart.jpg" alt="" class="img-responsive">
 							</div>
 							<div class="df-cartproduct__choise df-cartproduct__choise_view">
