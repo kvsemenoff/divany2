@@ -117,7 +117,7 @@
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
@@ -128,7 +128,7 @@
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА ЕВРОКНИЖКА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
@@ -139,7 +139,7 @@
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
 							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-							<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
 					</div>
@@ -209,19 +209,20 @@
 						<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-14, ГОСТ 19917-14 и конструкторской документации.</h4>	
 						<div class="dfinner-text__p dfinner-text__p_view">
 							<p>Спальное место: 1950х1540 мм</p>
-							<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+							<p>Производитель: Фабрика "Авангард"</p>
+							<p>Используются ортопедические матрасы ОРТО-2, выдерживают постоянные нагрузки до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
 						</div>
-						<p>Отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочныq каркас не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+						<p>Отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочный каркас не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
 					</div>
 
 					<div class="df-price-box">					
 						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-						<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
 				</div>
 				<div class="tovar-item item2">
-					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
+					<h2 class="df-innerh2">ДИВАН КРОВАТЬ НЕВАДА ЕВРОКНИЖКА</h2>
 					<div class="df-cartproduct df-cartproduct_view">
 						<div class="df-cartproduct__left df-cartproduct__left_view">
 							<div class="df-cartproduct__img df-cartproduct__img_view dfimge2">
@@ -273,22 +274,23 @@
 					</div>
 
 					<div class="dfinner-text dfinner-text_view">
-						<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-14, ГОСТ 19917-14 и конструкторской документации.</h4>	
+						<h4>Технические требования на диван «Невада» соответствуют ГОСТ 16371-14, ГОСТ 19917-14 и конструкторской документации.</h4>	
 						<div class="dfinner-text__p dfinner-text__p_view">
 							<p>Спальное место: 1950х1540 мм</p>
-							<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
+							<p>Производитель: Фабрика "Авангард"</p>
+							<p>Диван-кровать «Невада» это новое направление в коллекции «Искусства и Ремесла» фабрики "Авангард". Дизайнерское решение в изготовлении видовых деревянных элементов к модели навеяно древним славянским фольклором. Декоративные элементы подлокотников напоминают атрибуты славянской мифологии.</p>
 						</div>
-						<p>Отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочныq каркас не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+						<p>Подлокотник дивана напоминает закат солнца и одновременно колесо. У восточных славян колесо несет значение оберега. А, как известно, обереги это магические средства предохраняющие человека и его мир: дом, счастье, достаток, от потенциальной опасности: болезней, сглаза, порчи, и стихийных бедствий. Разместив у себя в комнате такой диван, вы можете быть абсолютно спокойны за свой отдых и сон.</p>
 					</div>
 
 					<div class="df-price-box">					
 						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-						<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
 				</div>
 				<div class="tovar-item item3">
-					<h2 class="df-innerh2">ДИВАН АРИЗОНА ЕВРОСОФА</h2>
+					<h2 class="df-innerh2">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</h2>
 					<div class="df-cartproduct df-cartproduct_view">
 						<div class="df-cartproduct__left df-cartproduct__left_view">
 							<div class="df-cartproduct__img df-cartproduct__img_view dfimge3">
@@ -298,32 +300,32 @@
 								<div id="df-owl3">
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="">
 										</div>
 									</div>
 								</div>
@@ -340,17 +342,18 @@
 					</div>
 
 					<div class="dfinner-text dfinner-text_view">
-						<h4>Технические требования на еврософу «Аризона» соответствуют ГОСТ 16371-93, ГОСТ 19917-93 и конструкторской документации.</h4>	
+						<h4>Технические требования на диван «Чикаго» соответствуют ГОСТ 16371-14, ГОСТ 19917-14 и конструкторской документации.</h4>	
 						<div class="dfinner-text__p dfinner-text__p_view">
-							<p>Спальное место: 1950х1540 мм</p>
+							<p>Спальное место: 2020х1600 мм</p>
+							<p>Производитель: Фабрика "Авангард"</p>
 							<p>Используются ортопедические матрасы: матрас ОРТО-2 - до 150 кг на место. В данной модели за счет высокой плотности и латексных добавок работает эффект «миллиона пружинок», которые более жестко поддерживают естественные изгибы позвоночника. Сертификация по стандарту CertiPUR</p>
 						</div>
-						<p>Отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 195 см х 154 см обеспечивает комфортный сон, а прочныq каркас не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
+						<p>Отделочную ткань можно выбрать под свой интерьер. В этом диване, в отличие от классической модели, отлично смотрятся не только традиционные, но и яркие молодёжные варианты обивки. Спальное место 202 см х 160 см обеспечивает комфортный сон, а прочный каркас не побеспокоят скрипом и поломками даже самых активных хозяев.</p>
 					</div>
 
 					<div class="df-price-box">					
 						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
-						<span class="df-models__txt3 df-models__txt3_view">52500 руб.</span>
+						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
 				</div>
@@ -511,7 +514,7 @@
 			Спасибо за заявку!
 		</div>
 		<div class="dd-form-txt">
-			Наш менеджер свяжется с вами в ближайшее время!
+			Наш менеджер свяжется с Вами в ближайшее рабочее время с 9-00 до 18-00 кроме субботы и воскресенья! 
 		</div>
 	</div>
 </div>
@@ -547,7 +550,7 @@
 					</div>
 					<div class="df-row">
 						<span class="df-nameproduct">Стоимость</span>
-						<span class="df-nameproduct2" id="price">52500</span>
+						<span class="df-nameproduct2" id="price">54960</span>
 					</div>
 				</div>
 
@@ -560,7 +563,7 @@
 					<input type="checkbox" name="check" required> <label for="check">С условиями <a target="_blank" href="/oferta/oferta.docx">оферты</a> ознакомлен и согласен</label>
 					<input type="hidden" class="totalprice" name="totalprice" value="">
 					<input type="hidden" class="tovar" name="tovar" value="">
-
+					<input type="hidden" class="colornumber" name="colornumber" value="">
 					<input type="submit" class="df-input_view2" value="Отправить"> 
 				</div>
 			</div>

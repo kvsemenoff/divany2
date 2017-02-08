@@ -1,6 +1,7 @@
 
 
 $(document).ready(function(){
+    var colornumber = 1;
 
     $('a[name=modal]').click(function(e) {
         e.preventDefault();
@@ -108,6 +109,7 @@ $(document).ready(function(){
   // $('.dfopen1 .df-cartproduct__col_view a:first').click();
 
   $('.model-link').on('click', function(e){
+
         
          e.preventDefault();         
 
@@ -123,7 +125,19 @@ $(document).ready(function(){
         var text = $(this).find('.df-models__txt1_view').text();
         var priceold = $(this).find('.df-models__txt2_view').text();
         var pricetxt = $(this).find('.df-models__txt3_view').text();
-        var attr = $(this).find('.df-models__img').find('img').attr('src');      
+        var attr = $(this).find('.df-models__img').find('img').attr('src');    
+
+
+       
+        $('.df-cartproduct__right').each(function(){
+         
+
+
+         //alert($(this).html());
+
+
+       });
+
         
         $('.df-input_view').each(function(){
             $('.df-innerh2').text(text);
@@ -171,12 +185,14 @@ $(document).ready(function(){
           }
 
       });
+        var aTag = $("a[name='model']");
+       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
     });
   
 
   $('.model-link2').on('click', function(e){        
-        e.preventDefault();   
+       // e.preventDefault();   
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
@@ -231,12 +247,14 @@ $(document).ready(function(){
           }
 
       });
+         var aTag = $("a[name='model']");
+       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
     });
  
 
   $('.model-link3').on('click', function(e){
-        e.preventDefault();      
+       // e.preventDefault();      
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
@@ -292,18 +310,32 @@ $(document).ready(function(){
           }
 
       });
+         var aTag = $("a[name='model']");
+       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
     });
 
  
-  $('.df-cartproduct__right_view a').click(function(){        
+  $('.df-cartproduct__right_view a').click(function(index,item){     
+  
     $(".df-cartproduct__right_view a").each(function(){
         if ($(".df-cartproduct__right_view a").hasClass("df-active")) {
+
             $(".df-cartproduct__right_view a").removeClass("df-active");
-        }
+           
+            }
+
+        
     });
     $(this).addClass("df-active");
+    
 });
+var $set = $('.df-cartproduct__right_view a');
+    $('.df-cartproduct__right_view').on('click', 'a', function () {
+        var n=$set.index(this);    
+       $('.colornumber').val(n+1);
+    });
+
 
   $('.burg').click(function(){        
     $('.db-container-div').slideToggle();
