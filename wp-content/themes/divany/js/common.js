@@ -428,7 +428,11 @@ var $set = $('.df-cartproduct__right_view a');
       }
   }
 });
-
+$(".df-cartproduct__col_view a").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".dfimge1").offset().top - 200
+    }, 200);
+});
   
 
   $(window).scroll(function(){
@@ -448,15 +452,19 @@ var $set = $('.df-cartproduct__right_view a');
   $('.db-container__menu li a[href^="#"]').click(function(){ 
       var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
       if($element.length == 1) { 
-       $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-   }     
-   return false;
+        $('html, body').animate({
+            scrollTop: $element.offset().top - 50 
+        }, 500); 
+     }     
+     return false;
+ });
+
+
 });
 
 
 
 
-});
 
 
 function navigation_scroll(){
