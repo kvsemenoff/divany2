@@ -128,7 +128,7 @@ if(isset($_REQUEST["array"])){
 				<div class="df-models df-models_view">
 					<div class="df-model df-model_view model-link">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="/images/Arizona_Starlight.jpeg" alt=""></a>
+							<img src="/images/Arizona_Starlight.jpeg" alt="">
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН АРИЗОНА ЕВРОСОФА</span>
@@ -139,7 +139,7 @@ if(isset($_REQUEST["array"])){
 					</div>
 					<div class="df-model df-model_view model-link2">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="/images/Nevada_WalesWhit_Tal3.jpg" alt=""></a>
+							<img src="/images/Nevada_WalesWhit_Tal3.jpg" alt="">
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ НЕВАДА ЕВРОКНИЖКА</span>
@@ -150,7 +150,7 @@ if(isset($_REQUEST["array"])){
 					</div>
 					<div class="df-model df-model_view model-link3">
 						<div class="df-models__img df-models__img_view">
-							<a href="#model" class="model-link"><img src="/images/chicago_2.jpg" alt=""></a>
+							<img src="/images/chicago_2.jpg" alt="">
 						</div>
 						<div class="df-models__characteristics df-models__characteristics_view">
 							<span class="df-models__txt1 df-models__txt1_view">ДИВАН КРОВАТЬ ЧИКАГО ЕВРОКНИЖКА</span>

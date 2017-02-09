@@ -108,56 +108,50 @@ $(document).ready(function(){
 
   // $('.dfopen1 .df-cartproduct__col_view a:first').click();
 
-  $('.model-link').on('click', function(e){
+$('.model-link').on('click', function(e){
 
-        
-         e.preventDefault();         
+   e.preventDefault();         
 
-        if ($('.tovar-item').is(':visible')) {
-            $('.tovar-item').hide();
-        }      
-
-
-        $('.df-section_padding').slideDown();
-
-        $('.item1').slideDown();
-
-        var text = $(this).find('.df-models__txt1_view').text();
-        var priceold = $(this).find('.df-models__txt2_view').text();
-        var pricetxt = $(this).find('.df-models__txt3_view').text();
-        var attr = $(this).find('.df-models__img').find('img').attr('src');    
+   if ($('.tovar-item').is(':visible')) {
+    $('.tovar-item').hide();
+  }      
 
 
-       
-        $('.df-cartproduct__right').each(function(){
-         
+  $('.df-section_padding').slideDown();
+
+  $('.item1').slideDown();
+
+  var text = $(this).find('.df-models__txt1_view').text();
+  var priceold = $(this).find('.df-models__txt2_view').text();
+  var pricetxt = $(this).find('.df-models__txt3_view').text();
+  var attr = $(this).find('.df-models__img').find('img').attr('src');    
 
 
-         //alert($(this).html());
+
+  $('.df-cartproduct__right').each(function(){
+    
+  });
 
 
-       });
+  $('.df-input_view').each(function(){
+    $('.df-innerh2').text(text);
+    $('.dfopen1 .df-cartproduct__col_view a:first').attr('href', attr);
+    $('.dfopen1 .df-cartproduct__col_view img:first').attr('src', attr);               
 
-        
-        $('.df-input_view').each(function(){
-            $('.df-innerh2').text(text);
-            $('.dfopen1 .df-cartproduct__col_view a:first').attr('href', attr);
-            $('.dfopen1 .df-cartproduct__col_view img:first').attr('src', attr);               
+    $('.dfbold').text(text); 
+    $('.df-add__img').find('img').attr('src', attr); 
+    $('.df-price-box').find('.df-models__txt2_view').text(priceold);
+    $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
+    $('#price').text(pricetxt);
 
-            $('.dfbold').text(text); 
-            $('.df-add__img').find('img').attr('src', attr); 
-            $('.df-price-box').find('.df-models__txt2_view').text(priceold);
-            $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
-            $('#price').text(pricetxt);
+    $('.totalprice').val(pricetxt);
+    $('.tovar').val(text);
 
-            $('.totalprice').val(pricetxt);
-            $('.tovar').val(text);
-          
-             $('.dfopen1 a:first').click();
-        });   
+    $('.dfopen1 a:first').click();
+  });   
 
-        var $owlitem1 = $('#df-owl1');
-        $owlitem1.trigger('destroy.owl.carousel');
+  var $owlitem1 = $('#df-owl1');
+  $owlitem1.trigger('destroy.owl.carousel');
         // After destory, the markup is still not the same with the initial.
         // The differences are:
         //   1. The initial content was wrapped by a 'div.owl-stage-outer';
@@ -173,22 +167,22 @@ $(document).ready(function(){
             margin:0,    
             navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
             responsive:{
-                0:{
-                  items:1
+              0:{
+                items:1
               },       
               1000:{
-                  items:3
+                items:3
               },
               1248:{
-                  items:4
+                items:4
               }
-          }
+            }
 
-      });
-        var aTag = $("a[name='model']");
-       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+          });
+        // var aTag = $("a[name='model']");
+        // $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
-    });
+});
   
 
   $('.model-link2').on('click', function(e){        
@@ -248,7 +242,7 @@ $(document).ready(function(){
 
       });
          var aTag = $("a[name='model']");
-       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+        $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
     });
  
@@ -325,7 +319,6 @@ $(document).ready(function(){
            
             }
 
-        
     });
     $(this).addClass("df-active");
     
