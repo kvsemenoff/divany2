@@ -179,39 +179,46 @@ if(isset($_REQUEST["array"])){
 							</div>
 							<div class="df-cartproduct__choise df-cartproduct__choise_view">
 								<div id="df-owl1">
+									
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
 										</div>
 									</div>
+
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
+
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="/images/Arizona_Starlight.jpeg">
 										</div>
 									</div>
+
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="/images/Arizona_Starlight.jpeg">
 										</div>
 									</div>
+
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
+
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
+
 								</div>
 							</div>
-						</div>
+						</div>						
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen1">
 							<span>Выберите расцветку</span>
 							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
@@ -249,32 +256,32 @@ if(isset($_REQUEST["array"])){
 								<div id="df-owl2">
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 								</div>
@@ -317,32 +324,32 @@ if(isset($_REQUEST["array"])){
 								<div id="df-owl3">
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago1.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago3.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 									<div class="item">	
 										<div class="df-cartproduct__prod df-cartproduct__prod_view">
-											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/Chikago4.jpg" alt="" data-bigimg="/images/Arizona_BlueTopaz2_.jpeg">
 										</div>
 									</div>
 								</div>

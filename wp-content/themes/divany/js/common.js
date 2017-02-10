@@ -100,7 +100,51 @@ $(document).ready(function(){
        $(this).addClass("   ");       
    });     
 
-
+     $('#df-owl1').on('click', '.item', function(evt) {  
+            evt.preventDefault(); 
+            var bigimg =  $(this).find('img').attr('data-bigimg');
+                  
+           var oldImage = $('.dfimge1 img');              
+           var newImage = $('<img src="' + bigimg +'">');         
+           newImage.hide(); 
+            
+           $('.dfimge1').prepend(newImage);          
+           newImage.show(200);                    
+           oldImage.hide(200,function(){
+               $(this).remove();
+           });
+           $(this).addClass("   ");       
+       });
+        $('#df-owl2').on('click', '.item', function(evt) {  
+            evt.preventDefault(); 
+            var bigimg =  $(this).find('img').attr('data-bigimg');
+                  
+           var oldImage = $('.dfimge2 img');              
+           var newImage = $('<img src="' + bigimg +'">');         
+           newImage.hide(); 
+            
+           $('.dfimge2').prepend(newImage);          
+           newImage.show(200);                    
+           oldImage.hide(200,function(){
+               $(this).remove();
+           });
+           $(this).addClass("   ");       
+       }); 
+        $('#df-owl3').on('click', '.item', function(evt) { 
+            evt.preventDefault(); 
+            var bigimg =  $(this).find('img').attr('data-bigimg');
+                  
+           var oldImage = $('.dfimge3 img');              
+           var newImage = $('<img src="' + bigimg +'">');         
+           newImage.hide(); 
+            
+           $('.dfimge3').prepend(newImage);          
+           newImage.show(200);                    
+           oldImage.hide(200,function(){
+               $(this).remove();
+           });
+           $(this).addClass("   ");       
+       });   
   
 
   $('.item1, .item2, .item3').hide();
@@ -169,11 +213,14 @@ $('.model-link').on('click', function(e){
             responsive:{
               0:{
                 items:1
-              },       
-              1000:{
+              },
+              410:{
+                 items: 2   
+              },      
+              700:{
                 items:3
               },
-              1248:{
+              1000:{
                 items:4
               }
             }
@@ -229,13 +276,16 @@ $('.model-link').on('click', function(e){
             margin:0,    
             navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
             responsive:{
-                0:{
+              0:{
                   items:1
-              },       
-              1000:{
+              },
+              410:{
+                 items: 2   
+              },        
+              700:{
                   items:3
               },
-              1248:{
+              1000:{
                   items:4
               }
           }
@@ -292,13 +342,16 @@ $('.model-link').on('click', function(e){
             margin:0,    
             navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
             responsive:{
-                0:{
+              0:{
                   items:1
-              },       
-              1000:{
+              },
+              410:{
+                 items: 2   
+              },        
+              700:{
                   items:3
               },
-              1248:{
+              1000:{
                   items:4
               }
           }
