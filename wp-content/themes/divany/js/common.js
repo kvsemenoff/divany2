@@ -224,11 +224,13 @@ $('.model-link').on('click', function(e){
                                        
 
 
-                        // $(thisel).filter('img').each(function(e) {
+                        $(thisel).filter('img').each(function(e) {
                          
                         var newsrc =  $(this).attr('src');  
                         var newsrc2 =  $(this).attr('data-bigimg'); 
  
+
+ //проблема с >>> mystr + (если убрать то одна картинка нормально меняется)
  mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
 // mystr = this.prepare(mystr);
 
@@ -237,7 +239,7 @@ $('.model-link').on('click', function(e){
                              $('#df-owl1 .item').remove(); 
                             $('#df-owl1').html(mystr); 
 
-                        // }); 
+                        }); 
                             
                                 $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
                                 $owlitem1.owlCarousel({
