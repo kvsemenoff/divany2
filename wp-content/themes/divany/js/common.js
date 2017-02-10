@@ -60,7 +60,7 @@ $(document).ready(function(){
         // $('a[href=#thanks]').trigger('click');
     };
     
-  $('.dfopen1 a').click(function(evt) {        
+    $('.dfopen1 a').click(function(evt) {        
        evt.preventDefault();        
        var imgPath = $(this).attr('href');         
        var oldImage = $('.dfimge1 img');              
@@ -72,8 +72,8 @@ $(document).ready(function(){
            $(this).remove();
        });
        $(this).addClass("   ");       
-   });     
-   $('.dfopen2 a').click(function(evt) {        
+    });     
+    $('.dfopen2 a').click(function(evt) {        
        evt.preventDefault();        
        var imgPath = $(this).attr('href');         
        var oldImage = $('.dfimge2 img');              
@@ -85,7 +85,7 @@ $(document).ready(function(){
            $(this).remove();
        });
        $(this).addClass("   ");       
-   });     
+    });     
     $('.dfopen3 a').click(function(evt) {        
        evt.preventDefault();        
        var imgPath = $(this).attr('href');         
@@ -98,54 +98,63 @@ $(document).ready(function(){
            $(this).remove();
        });
        $(this).addClass("   ");       
-   });     
+    });     
 
-     $('#df-owl1').on('click', '.item', function(evt) {  
-            evt.preventDefault(); 
-            var bigimg =  $(this).find('img').attr('data-bigimg');
-                  
-           var oldImage = $('.dfimge1 img');              
-           var newImage = $('<img src="' + bigimg +'">');         
-           newImage.hide(); 
-            
-           $('.dfimge1').prepend(newImage);          
-           newImage.show(200);                    
-           oldImage.hide(200,function(){
-               $(this).remove();
-           });
-           $(this).addClass("   ");       
+    $('#df-owl1').on('click', '.item', function(evt) {  
+        evt.preventDefault(); 
+        var bigimg =  $(this).find('img').attr('data-bigimg');
+              
+       var oldImage = $('.dfimge1 img');              
+       var newImage = $('<img src="' + bigimg +'">');         
+       newImage.hide(); 
+        
+       $('.dfimge1').prepend(newImage);          
+       newImage.show(200);                    
+       oldImage.hide(200,function(){
+           $(this).remove();
        });
-        $('#df-owl2').on('click', '.item', function(evt) {  
-            evt.preventDefault(); 
-            var bigimg =  $(this).find('img').attr('data-bigimg');
-                  
-           var oldImage = $('.dfimge2 img');              
-           var newImage = $('<img src="' + bigimg +'">');         
-           newImage.hide(); 
-            
-           $('.dfimge2').prepend(newImage);          
-           newImage.show(200);                    
-           oldImage.hide(200,function(){
-               $(this).remove();
-           });
-           $(this).addClass("   ");       
-       }); 
-        $('#df-owl3').on('click', '.item', function(evt) { 
-            evt.preventDefault(); 
-            var bigimg =  $(this).find('img').attr('data-bigimg');
-                  
-           var oldImage = $('.dfimge3 img');              
-           var newImage = $('<img src="' + bigimg +'">');         
-           newImage.hide(); 
-            
-           $('.dfimge3').prepend(newImage);          
-           newImage.show(200);                    
-           oldImage.hide(200,function(){
-               $(this).remove();
-           });
-           $(this).addClass("   ");       
-       });   
+       $(this).addClass("   ");       
+    });
+    $('#df-owl2').on('click', '.item', function(evt) {  
+        evt.preventDefault(); 
+        var bigimg =  $(this).find('img').attr('data-bigimg');
+              
+       var oldImage = $('.dfimge2 img');              
+       var newImage = $('<img src="' + bigimg +'">');         
+       newImage.hide(); 
+        
+       $('.dfimge2').prepend(newImage);          
+       newImage.show(200);                    
+       oldImage.hide(200,function(){
+           $(this).remove();
+       });
+       $(this).addClass("   ");       
+    }); 
+    $('#df-owl3').on('click', '.item', function(evt) { 
+        evt.preventDefault(); 
+        var bigimg =  $(this).find('img').attr('data-bigimg');
+              
+       var oldImage = $('.dfimge3 img');              
+       var newImage = $('<img src="' + bigimg +'">');         
+       newImage.hide(); 
+        
+       $('.dfimge3').prepend(newImage);          
+       newImage.show(200);                    
+       oldImage.hide(200,function(){
+           $(this).remove();
+       });
+       $(this).addClass("   ");       
+    });   
   
+
+
+
+
+
+
+
+
+
 
   $('.item1, .item2, .item3').hide();
 
@@ -154,30 +163,26 @@ $(document).ready(function(){
 
 $('.model-link').on('click', function(e){
 
-   e.preventDefault();         
+    e.preventDefault();         
 
-   if ($('.tovar-item').is(':visible')) {
-    $('.tovar-item').hide();
-  }      
+    if ($('.tovar-item').is(':visible')) {
+        $('.tovar-item').hide();
+    }      
 
+    $('.df-section_padding').slideDown();
 
-  $('.df-section_padding').slideDown();
+    $('.item1').slideDown();
 
-  $('.item1').slideDown();
+    var text = $(this).find('.df-models__txt1_view').text();
+    var priceold = $(this).find('.df-models__txt2_view').text();
+    var pricetxt = $(this).find('.df-models__txt3_view').text();
+    var attr = $(this).find('.df-models__img').find('img').attr('src');    
 
-  var text = $(this).find('.df-models__txt1_view').text();
-  var priceold = $(this).find('.df-models__txt2_view').text();
-  var pricetxt = $(this).find('.df-models__txt3_view').text();
-  var attr = $(this).find('.df-models__img').find('img').attr('src');    
+    $('.df-cartproduct__right').each(function(){
 
+    });
 
-
-  $('.df-cartproduct__right').each(function(){
-    
-  });
-
-
-  $('.df-input_view').each(function(){
+    $('.df-input_view').each(function(){
     $('.df-innerh2').text(text);
     $('.dfopen1 .df-cartproduct__col_view a:first').attr('href', attr);
     $('.dfopen1 .df-cartproduct__col_view img:first').attr('src', attr);               
@@ -192,45 +197,136 @@ $('.model-link').on('click', function(e){
     $('.tovar').val(text);
 
     $('.dfopen1 a:first').click();
-  });   
+    });   
 
-  var $owlitem1 = $('#df-owl1');
-  $owlitem1.trigger('destroy.owl.carousel');
+
+
+
+
+
+       
+
+
+
+          ////////////////////////////////////////////
+                var mystr="";
+                
+                // var elthis =  $('.dfopen1 a').next('.df-sliderimages').html();
+                // var el = $(this).next('.df-sliderimages').html();                
+
+                     $('.dfopen1 a').on('click' , function(){
+
+                      $('#df-owl1 .item').remove(); 
+                             var $owlitem1 = $('#df-owl1');
+                             $owlitem1.trigger('destroy.owl.carousel');
+
+                        var thisel = $(this).parents('.df-cartproduct__col').find('.df-sliderimages').html();
+                                       
+
+
+                        // $(thisel).filter('img').each(function(e) {
+                         
+                        var newsrc =  $(this).attr('src');  
+                        var newsrc2 =  $(this).attr('data-bigimg'); 
+ 
+ mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
+// mystr = this.prepare(mystr);
+
+
+                         //$('#df-owl1 .item').owlCarousel('add', mystr).owlCarousel('refresh');
+                             $('#df-owl1 .item').remove(); 
+                            $('#df-owl1').html(mystr); 
+
+                        // }); 
+                            
+                                $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+                                $owlitem1.owlCarousel({
+                                    // your initial option here, again.
+                                    loop:true,
+                                    nav:true, 
+                                    autoplay:false,
+                                    smartSpeed:1000,
+                                    margin:0,    
+                                    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+                                    responsive:{
+                                      0:{
+                                        items:1
+                                      },
+                                      410:{
+                                         items: 2   
+                                      },      
+                                      700:{
+                                        items:3
+                                      },
+                                      1000:{
+                                        items:4
+                                      }
+                                    }
+
+                                  });
+                                // jQuery("#df-owl1").trigger('add.owl.carousel', mystr).trigger('refresh.owl.carousel');
+
+                     }); 
+                                    
+
+              
+                
+           $('.dfopen1 a:first').click();
+             
+
+                   
+                
+                
+           
+       // var $owlitem1 = $('#df-owl1');
+       //  $owlitem1.trigger('destroy.owl.carousel');
+
         // After destory, the markup is still not the same with the initial.
         // The differences are:
         //   1. The initial content was wrapped by a 'div.owl-stage-outer';
         //   2. The '.owl-carousel' itself has an '.owl-loaded' class attached;
         //   We have to remove that before the new initialization.
-        $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-        $owlitem1.owlCarousel({
-            // your initial option here, again.
-            loop:true,
-            nav:true, 
-            autoplay:false,
-            smartSpeed:1000,
-            margin:0,    
-            navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-            responsive:{
-              0:{
-                items:1
-              },
-              410:{
-                 items: 2   
-              },      
-              700:{
-                items:3
-              },
-              1000:{
-                items:4
-              }
-            }
 
-          });
+        // $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+        // $owlitem1.owlCarousel({
+        //     // your initial option here, again.
+        //     loop:true,
+        //     nav:true, 
+        //     autoplay:false,
+        //     smartSpeed:1000,
+        //     margin:0,    
+        //     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        //     responsive:{
+        //       0:{
+        //         items:1
+        //       },
+        //       410:{
+        //          items: 2   
+        //       },      
+        //       700:{
+        //         items:3
+        //       },
+        //       1000:{
+        //         items:4
+        //       }
+        //     }
+
+        //   });
+
+
+
+
         // var aTag = $("a[name='model']");
         // $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
 
 });
+ 
+
+
   
+
+
+
 
   $('.model-link2').on('click', function(e){        
        // e.preventDefault();   
@@ -363,19 +459,17 @@ $('.model-link').on('click', function(e){
     });
 
  
-  $('.df-cartproduct__right_view a').click(function(index,item){     
-  
+$('.df-cartproduct__right_view a').click(function(index,item){    
+
     $(".df-cartproduct__right_view a").each(function(){
         if ($(".df-cartproduct__right_view a").hasClass("df-active")) {
-
-            $(".df-cartproduct__right_view a").removeClass("df-active");
-           
-            }
-
+            $(".df-cartproduct__right_view a").removeClass("df-active");           
+        }
     });
     $(this).addClass("df-active");
-    
+
 });
+
 var $set = $('.df-cartproduct__right_view a');
     $('.df-cartproduct__right_view').on('click', 'a', function () {
         var n=$set.index(this);    
@@ -383,75 +477,75 @@ var $set = $('.df-cartproduct__right_view a');
     });
 
 
-  $('.burg').click(function(){        
-    $('.db-container-div').slideToggle();
-});
+    $('.burg').click(function(){        
+        $('.db-container-div').slideToggle();
+    });
 
-  $('.df-cartproduct__prod_view a').click(function(e){
-    e.preventDefault();
-});
+    $('.df-cartproduct__prod_view a').click(function(e){
+        e.preventDefault();
+    });
 
 
-  var owl2 = $("#df-owl1");
-  owl2.owlCarousel({
-    loop:true,
-    nav:true, 
-    autoplay:false,
-    smartSpeed:1000,
-    margin:0,    
-    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-    responsive:{
-        0:{
-          items:1
-      },       
-      1000:{
-          items:3
-      },
-      1248:{
-          items:4
-      }
-  }
-});
-  var owl2 = $("#df-owl2");
-  owl2.owlCarousel({
-    loop:true,
-    nav:true, 
-    autoplay:false,
-    smartSpeed:1000,
-    margin:0,    
-    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-    responsive:{
-        0:{
-          items:1
-      },       
-      1000:{
-          items:3
-      },
-      1248:{
-          items:4
-      }
-  }
-});
-  var owl2 = $("#df-owl3");
-  owl2.owlCarousel({
-    loop:true,
-    nav:true, 
-    autoplay:false,
-    smartSpeed:1000,
-    margin:0,    
-    navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-    responsive:{
-        0:{
-          items:1
-      },       
-      1000:{
-          items:3
-      },
-      1248:{
-          items:4
-      }
-  }
-});
+//   var owl2 = $("#df-owl1");
+//   owl2.owlCarousel({
+//     loop:true,
+//     nav:true, 
+//     autoplay:false,
+//     smartSpeed:1000,
+//     margin:0,    
+//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+//     responsive:{
+//         0:{
+//           items:1
+//       },       
+//       1000:{
+//           items:3
+//       },
+//       1248:{
+//           items:4
+//       }
+//   }
+// });
+//   var owl2 = $("#df-owl2");
+//   owl2.owlCarousel({
+//     loop:true,
+//     nav:true, 
+//     autoplay:false,
+//     smartSpeed:1000,
+//     margin:0,    
+//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+//     responsive:{
+//         0:{
+//           items:1
+//       },       
+//       1000:{
+//           items:3
+//       },
+//       1248:{
+//           items:4
+//       }
+//   }
+// });
+//   var owl2 = $("#df-owl3");
+//   owl2.owlCarousel({
+//     loop:true,
+//     nav:true, 
+//     autoplay:false,
+//     smartSpeed:1000,
+//     margin:0,    
+//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+//     responsive:{
+//         0:{
+//           items:1
+//       },       
+//       1000:{
+//           items:3
+//       },
+//       1248:{
+//           items:4
+//       }
+//   }
+// });
 
 
   var owl3 = $(".df-treners-slider");
