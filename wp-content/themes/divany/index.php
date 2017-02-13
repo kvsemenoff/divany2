@@ -258,10 +258,10 @@ if(isset($_REQUEST["array"])){
 							</div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/42.jpg"><img src="/images/42.jpg" alt=""></a>
 								<div class="df-sliderimages">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
 									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
 									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart2.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
 								</div>
 							</div>
@@ -328,7 +328,15 @@ if(isset($_REQUEST["array"])){
 						</div>
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen2">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a>
+								<div class="df-sliderimages">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+								</div>	
+							</div>
 							<!-- <div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopa1_.jpeg"><img src="/images/Arizona_BlueTopa1_.jpeg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopaz2_.jpeg"><img src="/images/Arizona_BlueTopaz2_.jpeg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_Magnolia_Beige_.jpeg"><img src="/images/Arizona_Magnolia_Beige_.jpeg" alt=""></a></div>
@@ -396,7 +404,15 @@ if(isset($_REQUEST["array"])){
 						</div>
 						<div class="df-cartproduct__right df-cartproduct__right_view dfopen3">
 							<span>Выберите расцветку</span>
-							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a></div>
+							<div class="df-cartproduct__col df-cartproduct__col_view dfaimg1"><a href="/images/Arizona_Starlight.jpeg"><img src="/images/Arizona_Starlight.jpeg" alt=""></a>
+								<div class="df-sliderimages">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/df-cart3.jpg" alt="" data-bigimg="<?php echo get_template_directory_uri(); ?>/img/df-cart1.jpg">
+								</div>	
+							</div>
 							<!-- <div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopa1_.jpeg"><img src="/images/Arizona_BlueTopa1_.jpeg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_BlueTopaz2_.jpeg"><img src="/images/Arizona_BlueTopaz2_.jpeg" alt=""></a></div>
 							<div class="df-cartproduct__col df-cartproduct__col_view"><a href="/images/Arizona_Magnolia_Beige_.jpeg"><img src="/images/Arizona_Magnolia_Beige_.jpeg" alt=""></a></div>

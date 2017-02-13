@@ -201,44 +201,32 @@ $('.model-link').on('click', function(e){
 
 
 
-
-
-
-       
-
-
-
           ////////////////////////////////////////////
-                var mystr="";
+                var mystr="";            
                 
-                // var elthis =  $('.dfopen1 a').next('.df-sliderimages').html();
-                // var el = $(this).next('.df-sliderimages').html();                
+                    $('.dfopen1 a').on('click' , function(){
+                      
+                        $('#df-owl1 .item').remove(); 
 
-                     $('.dfopen1 a').on('click' , function(){
-
-                      $('#df-owl1 .item').remove(); 
-                             var $owlitem1 = $('#df-owl1');
-                             $owlitem1.trigger('destroy.owl.carousel');
+                        var $owlitem1 = $('#df-owl1');
+                        $owlitem1.trigger('destroy.owl.carousel');
 
                         var thisel = $(this).parents('.df-cartproduct__col').find('.df-sliderimages').html();
-                                       
-
-
+                        
+                        mystr=""; 
+                                                   
                         $(thisel).filter('img').each(function(e) {
                          
-                        var newsrc =  $(this).attr('src');  
-                        var newsrc2 =  $(this).attr('data-bigimg'); 
- 
+                            var newsrc =  $(this).attr('src');  
+                            var newsrc2 =  $(this).attr('data-bigimg');                     
+                
+                            mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
 
- //проблема с >>> mystr + (если убрать то одна картинка нормально меняется)
- mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
-// mystr = this.prepare(mystr);
-
-
-                         //$('#df-owl1 .item').owlCarousel('add', mystr).owlCarousel('refresh');
-                             $('#df-owl1 .item').remove(); 
+                             //$('#df-owl1 .item').owlCarousel('add', mystr).owlCarousel('refresh');
+                                
                             $('#df-owl1').html(mystr); 
-
+ 
+                           
                         }); 
                             
                                 $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
@@ -269,12 +257,9 @@ $('.model-link').on('click', function(e){
                                 // jQuery("#df-owl1").trigger('add.owl.carousel', mystr).trigger('refresh.owl.carousel');
 
                      }); 
-                                    
-
-              
-                
-           $('.dfopen1 a:first').click();
-             
+        
+                    $('.dfopen1 a:first').click();
+////////////////////////////////////////////////             
 
                    
                 
@@ -361,38 +346,67 @@ $('.model-link').on('click', function(e){
             
         });   
 
-        var $owlitem2 = $('#df-owl2');
-        $owlitem2.trigger('destroy.owl.carousel');
-        
-        $owlitem2.html($owlitem2.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-        $owlitem2.owlCarousel({
-            // your initial option here, again.
-            loop:true,
-            nav:true, 
-            autoplay:false,
-            smartSpeed:1000,
-            margin:0,    
-            navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-            responsive:{
-              0:{
-                  items:1
-              },
-              410:{
-                 items: 2   
-              },        
-              700:{
-                  items:3
-              },
-              1000:{
-                  items:4
-              }
-          }
 
-      });
-         var aTag = $("a[name='model']");
-        $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+                ////////////////////////////////////////////
+                var mystr="";            
+                
+                    $('.dfopen2 a').on('click' , function(){
+                      
+                        $('#df-owl2 .item').remove(); 
 
-    });
+                        var $owlitem2 = $('#df-owl2');
+                        $owlitem2.trigger('destroy.owl.carousel');
+
+                        var thisel = $(this).parents('.df-cartproduct__col').find('.df-sliderimages').html();
+                        
+                        mystr=""; 
+                                                   
+                        $(thisel).filter('img').each(function(e) {
+                         
+                        var newsrc =  $(this).attr('src');  
+                        var newsrc2 =  $(this).attr('data-bigimg');                     
+            
+                        mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
+
+                                                   
+                        $('#df-owl2').html(mystr); 
+ 
+                           
+                        }); 
+                      
+                        $owlitem2.html($owlitem2.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+                        $owlitem2.owlCarousel({                           
+                            loop:true,
+                            nav:true, 
+                            autoplay:false,
+                            smartSpeed:1000,
+                            margin:0,    
+                            navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+                            responsive:{
+                              0:{
+                                  items:1
+                              },
+                              410:{
+                                 items: 2   
+                              },        
+                              700:{
+                                  items:3
+                              },
+                              1000:{
+                                  items:4
+                              }
+                          }
+
+                      });
+                        var aTag = $("a[name='model']");
+                         $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+
+                     });          
+                
+                     $('.dfopen2 a:first').click();
+////////////////////////////////////////////////    
+
+});
  
 
   $('.model-link3').on('click', function(e){
@@ -426,37 +440,65 @@ $('.model-link').on('click', function(e){
              $('.dfopen3 a:first').click();
         });   
 
+        ////////////////////////////////////////////
+                var mystr="";            
+                
+                    $('.dfopen3 a').on('click' , function(){
+                      
+                        $('#df-owl3 .item').remove(); 
 
-        var $owlitem3 = $('#df-owl3');
-        $owlitem3.trigger('destroy.owl.carousel');
+                        var $owlitem3 = $('#df-owl3');
+                        $owlitem3.trigger('destroy.owl.carousel');
 
-        $owlitem3.html($owlitem3.find('.owl-stage-outer').html()).removeClass('owl-loaded');
-        $owlitem3.owlCarousel({
-            // your initial option here, again.
-            loop:true,
-            nav:true, 
-            autoplay:false,
-            smartSpeed:1000,
-            margin:0,    
-            navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-            responsive:{
-              0:{
-                  items:1
-              },
-              410:{
-                 items: 2   
-              },        
-              700:{
-                  items:3
-              },
-              1000:{
-                  items:4
-              }
-          }
+                        var thisel = $(this).parents('.df-cartproduct__col').find('.df-sliderimages').html();
+                        
+                        mystr=""; 
+                                                   
+                        $(thisel).filter('img').each(function(e) {
+                         
+                            var newsrc =  $(this).attr('src');  
+                            var newsrc2 =  $(this).attr('data-bigimg');                     
+                
+                            mystr = mystr + '<div class="item"><div class="df-cartproduct__prod df-cartproduct__prod_view"><img src="'+ newsrc + '" data-bigimg="'+ newsrc2 + '"></div></div>';
 
-      });
-         var aTag = $("a[name='model']");
-       $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+                            $('#df-owl3').html(mystr); 
+  
+                        }); 
+                            
+                            
+
+                            $owlitem3.html($owlitem3.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+                            $owlitem3.owlCarousel({
+                                // your initial option here, again.
+                                loop:true,
+                                nav:true, 
+                                autoplay:false,
+                                smartSpeed:1000,
+                                margin:0,    
+                                navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+                                responsive:{
+                                  0:{
+                                      items:1
+                                  },
+                                  410:{
+                                     items: 2   
+                                  },        
+                                  700:{
+                                      items:3
+                                  },
+                                  1000:{
+                                      items:4
+                                  }
+                              }
+
+                          });
+                             var aTag = $("a[name='model']");
+                           $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+
+                     }); 
+         
+                    $('.dfopen3 a:first').click();
+////////////////////////////////////////////////             
 
     });
 
@@ -488,68 +530,6 @@ var $set = $('.df-cartproduct__right_view a');
     });
 
 
-//   var owl2 = $("#df-owl1");
-//   owl2.owlCarousel({
-//     loop:true,
-//     nav:true, 
-//     autoplay:false,
-//     smartSpeed:1000,
-//     margin:0,    
-//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-//     responsive:{
-//         0:{
-//           items:1
-//       },       
-//       1000:{
-//           items:3
-//       },
-//       1248:{
-//           items:4
-//       }
-//   }
-// });
-//   var owl2 = $("#df-owl2");
-//   owl2.owlCarousel({
-//     loop:true,
-//     nav:true, 
-//     autoplay:false,
-//     smartSpeed:1000,
-//     margin:0,    
-//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-//     responsive:{
-//         0:{
-//           items:1
-//       },       
-//       1000:{
-//           items:3
-//       },
-//       1248:{
-//           items:4
-//       }
-//   }
-// });
-//   var owl2 = $("#df-owl3");
-//   owl2.owlCarousel({
-//     loop:true,
-//     nav:true, 
-//     autoplay:false,
-//     smartSpeed:1000,
-//     margin:0,    
-//     navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
-//     responsive:{
-//         0:{
-//           items:1
-//       },       
-//       1000:{
-//           items:3
-//       },
-//       1248:{
-//           items:4
-//       }
-//   }
-// });
-
-
   var owl3 = $(".df-treners-slider");
   owl3.owlCarousel({
     loop:true,
@@ -572,7 +552,7 @@ var $set = $('.df-cartproduct__right_view a');
 });
 $(".df-cartproduct__col_view a").click(function() {
     $('html, body').animate({
-        scrollTop: $(".dfimge1").offset().top - 200
+        scrollTop: $(".dfimge1").offset().top - 170
     }, 200);
 });
   
