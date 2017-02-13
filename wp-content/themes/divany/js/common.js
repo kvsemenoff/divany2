@@ -58,7 +58,7 @@ $(document).ready(function(){
         $('.window').hide();
         location = "thanks";
         // $('a[href=#thanks]').trigger('click');
-    };
+    } 
     
     $('.dfopen1 a').click(function(evt) {        
        evt.preventDefault();        
@@ -149,17 +149,7 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-  $('.item1, .item2, .item3').hide();
-
-
-  // $('.dfopen1 .df-cartproduct__col_view a:first').click();
+$('.item1, .item2, .item3').hide();
 
 $('.model-link').on('click', function(e){
 
@@ -167,9 +157,8 @@ $('.model-link').on('click', function(e){
 
     if ($('.tovar-item').is(':visible')) {
         $('.tovar-item').hide();
-    }      
-
-    $('.df-section_padding').slideDown();
+    } 
+    
 
     $('.item1').slideDown();
 
@@ -183,22 +172,21 @@ $('.model-link').on('click', function(e){
     });
 
     $('.df-input_view').each(function(){
-    $('.df-innerh2').text(text);
-    $('.dfopen1 .df-cartproduct__col_view a:first').attr('href', attr);
-    $('.dfopen1 .df-cartproduct__col_view img:first').attr('src', attr);               
+      $('.df-innerh2').text(text);
+      $('.dfopen1 .df-cartproduct__col_view a:first').attr('href', attr);
+      $('.dfopen1 .df-cartproduct__col_view img:first').attr('src', attr);               
 
-    $('.dfbold').text(text); 
-    $('.df-add__img').find('img').attr('src', attr); 
-    $('.df-price-box').find('.df-models__txt2_view').text(priceold);
-    $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
-    $('#price').text(pricetxt);
+      $('.dfbold').text(text); 
+      $('.df-add__img').find('img').attr('src', attr); 
+      $('.df-price-box').find('.df-models__txt2_view').text(priceold);
+      $('.df-price-box').find('.df-models__txt3_view').text(pricetxt);
+      $('#price').text(pricetxt);
 
-    $('.totalprice').val(pricetxt);
-    $('.tovar').val(text);
+      $('.totalprice').val(pricetxt);
+      $('.tovar').val(text);
 
-    $('.dfopen1 a:first').click();
-    });   
-
+     });   
+   
 
 
           ////////////////////////////////////////////
@@ -231,7 +219,7 @@ $('.model-link').on('click', function(e){
                             
                                 $owlitem1.html($owlitem1.find('.owl-stage-outer').html()).removeClass('owl-loaded');
                                 $owlitem1.owlCarousel({
-                                    // your initial option here, again.
+                                   
                                     loop:true,
                                     nav:true, 
                                     autoplay:false,
@@ -259,11 +247,10 @@ $('.model-link').on('click', function(e){
                      }); 
         
                     $('.dfopen1 a:first').click();
+
+
 ////////////////////////////////////////////////             
 
-                   
-                
-                
            
        // var $owlitem1 = $('#df-owl1');
        //  $owlitem1.trigger('destroy.owl.carousel');
@@ -304,7 +291,7 @@ $('.model-link').on('click', function(e){
 
 
         // var aTag = $("a[name='model']");
-        // $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+        // $('html,body').animate({scrollTop: aTag.offset().top-50}, 200);
 
 });
  
@@ -316,7 +303,7 @@ $('.model-link').on('click', function(e){
 
 
   $('.model-link2').on('click', function(e){        
-       // e.preventDefault();   
+       e.preventDefault();   
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
@@ -341,11 +328,9 @@ $('.model-link').on('click', function(e){
 
             $('.totalprice').val(pricetxt2);
             $('.tovar').val(text2);
-
-            $('.dfopen2 a:first').click();
             
         });   
-
+       
 
                 ////////////////////////////////////////////
                 var mystr="";            
@@ -397,9 +382,7 @@ $('.model-link').on('click', function(e){
                               }
                           }
 
-                      });
-                        var aTag = $("a[name='model']");
-                         $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+                      });                       
 
                      });          
                 
@@ -410,7 +393,7 @@ $('.model-link').on('click', function(e){
  
 
   $('.model-link3').on('click', function(e){
-       // e.preventDefault();      
+       e.preventDefault();      
 
         if ($('.tovar-item').is(':visible')) {
             $('.tovar-item').hide();
@@ -437,9 +420,9 @@ $('.model-link').on('click', function(e){
             $('.totalprice').val(pricetxt3);
             $('.tovar').val(text3);
 
-             $('.dfopen3 a:first').click();
+            
         });   
-
+        
         ////////////////////////////////////////////
                 var mystr="";            
                 
@@ -492,8 +475,8 @@ $('.model-link').on('click', function(e){
                               }
 
                           });
-                             var aTag = $("a[name='model']");
-                           $('html,body').animate({scrollTop: aTag.offset().top-50},'slow');
+                           // var aTag = $("a[name='model']");
+                           // $('html,body').animate({scrollTop: aTag.offset().top-50}, 200);
 
                      }); 
          
@@ -550,14 +533,26 @@ var $set = $('.df-cartproduct__right_view a');
       }
   }
 });
-$(".df-cartproduct__col_view a").click(function() {
+
+
+$(".dfopen1 a").click(function() {
     $('html, body').animate({
         scrollTop: $(".dfimge1").offset().top - 170
-    }, 200);
+    }, 500);
 });
-  
+$(".dfopen2 a").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".dfimge2").offset().top - 170
+    }, 500);
+});
+$(".dfopen3 a").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".dfimge3").offset().top - 170
+    }, 500);
+});  
 
-  $(window).scroll(function(){
+
+$(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
         $('.scrollToTop').fadeIn();
     } else {
@@ -566,20 +561,20 @@ $(".df-cartproduct__col_view a").click(function() {
 });
 
 
-  $('.scrollToTop').click(function(){
-     $('html, body').animate({scrollTop : 0},800);
-     return false;
- });
+$('.scrollToTop').click(function(){
+   $('html, body').animate({scrollTop : 0},100);
+   return false;
+});
 
-  $('.db-container__menu li a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-        $('html, body').animate({
-            scrollTop: $element.offset().top - 50 
-        }, 500); 
-     }     
-     return false;
- });
+$('.db-container__menu li a[href^="#"]').click(function(){ 
+  var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+  if($element.length == 1) { 
+    $('html, body').animate({
+        scrollTop: $element.offset().top - 50 
+    }, 300); 
+}     
+return false;
+});
 
 
 });
@@ -597,9 +592,6 @@ function navigation_scroll(){
         $('.header-top')
         .toggleClass('header-top', false)
         .toggleClass('header-fixed', false);
-
-
-
     }     
     else if (scroll >= offset) {
         $('.header-top')
